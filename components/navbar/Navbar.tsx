@@ -12,7 +12,6 @@ const Navbar = () => {
           <li>{navTexts.EN.navLink1}</li>
           <li>{navTexts.EN.navLink2}</li>
           <li>{navTexts.EN.navLink3}</li>
-          <li>{navTexts.EN.navLink4}</li>
         </ul>
       </div>
       <div className={styles.rightNavSide}>
