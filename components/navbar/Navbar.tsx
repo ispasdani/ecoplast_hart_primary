@@ -15,7 +15,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className={styles.rightNavSide}>
-        <p>{navTexts.EN.navLink5}</p>
+        <p>{navTexts.EN.navLink4}</p>
         <p>{navTexts.EN.languageEn}</p>
       </div>
     </nav>
