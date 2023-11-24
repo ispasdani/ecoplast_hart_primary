@@ -23,3 +23,16 @@
     }
   }
 }
+
+@media screen and (max-width: 323px) {
+  .logoTitle {
+    .navTitle {
+      font-size: 18px;
+    }
+
+    .navLogo {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.videoCard {
+  border-bottom-right-radius: 65px;
+  border-top-left-radius: 65px;
+  position: relative;
+  z-index: 1;
+
+  .videoPlayer {
+    width: 100%;
+    border-bottom-right-radius: 65px;
+    border-top-left-radius: 65px;
+  }
+
+  .videoCardText {
+    position: absolute;
+    bottom: 20px;
+    color: var(--main-black);
+    left: 20px;
+    background-color: var(--main-white);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.2s all ease-in-out;
+  }
+
+  .videoCardText:hover {
+    background-color: var(--big-title);
+    color: var(--main-white);
+  }
+}
+
+@media screen and (max-width: 714px) {
+  .videoCard {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 60px;
+
+    .videoPlayer {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 60px;
+    }
+  }
+}

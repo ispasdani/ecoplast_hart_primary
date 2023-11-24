@@ -1,0 +1,147 @@
+.mobileNav {
+  display: none;
+}
+
+@media screen and (max-width: 765px) {
+  .mobileNav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    z-index: 2;
+
+    .hamburgerX {
+      width: 30px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      cursor: pointer;
+      transition: 0.5s all ease;
+
+      span:nth-child(1) {
+        transform: rotate(45deg);
+        width: 28px;
+        height: 3px;
+        background-color: var(--main-white);
+        border-radius: 10px;
+      }
+
+      span:nth-child(3) {
+        transform: rotate(-45deg);
+        position: absolute;
+
+        width: 28px;
+        height: 3px;
+        background-color: var(--main-white);
+        border-radius: 10px;
+      }
+    }
+
+    .hamburger {
+      width: 30px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      cursor: pointer;
+      transition: 0.5s all ease;
+
+      span {
+        width: 28px;
+        height: 3px;
+        background-color: var(--main-white);
+        margin: 2px 0px;
+        border-radius: 10px;
+        transition: 0.2s all ease-in-out;
+      }
+    }
+
+    .hamburger:hover span:nth-child(1) {
+      width: 14px;
+    }
+
+    .hamburger:hover span:nth-child(2) {
+      width: 21px;
+    }
+
+    .mobileNavContent {
+      position: absolute;
+      top: 7vh;
+      right: 0;
+      width: 70%;
+      height: 70vh;
+      background-color: var(--main-white);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      padding-top: 25px;
+
+      .mobileNavContentTop {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .navLink {
+          width: 100%;
+          padding: 10px 20px;
+          cursor: pointer;
+          color: var(--main-black);
+        }
+
+        .navLink:hover {
+          background-color: var(--big-title);
+          color: var(--main-white);
+        }
+      }
+
+      .mobileNavContentBottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .navLinkSpecial {
+          width: 150px;
+          margin: 25px 5px;
+          padding: 10px;
+          border: 1px solid var(--big-title);
+          border-radius: 20px;
+          cursor: pointer;
+          text-align: center;
+          color: var(--main-black);
+          transition: 0.3s all ease-in-out;
+        }
+
+        .navLinkSpecial:hover {
+          background-color: var(--big-title);
+          color: var(--main-white);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .mobileNav {
+    .mobileNavContent {
+      width: 80%;
+    }
+  }
+}
