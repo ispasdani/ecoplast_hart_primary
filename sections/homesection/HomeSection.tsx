@@ -1,7 +1,7 @@
 import CircleToSquareMotionDiv from "@/components/circletosquaremotiondiv/CircleToSquareMotionDiv";
 import VideoCard from "@/components/videocard/VideoCard";
 import { homeSectionTexts } from "@/constants";
-import styles from "@/pages/homepage/styles.module.scss";
+import styles from "@/sections/homesection/styles.module.scss";
 import React from "react";
 
 const HomeSection = () => {

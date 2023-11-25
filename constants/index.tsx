@@ -35,3 +35,11 @@ export const homeSectionTexts = {
     heroVideoText: "Cleaning nation collaboratively",
   },
 };
+
+export const whyusSectionTexts = {
+  RO: { whyusFirstTitle: "Why", whyusSecondTitle: "Why" },
+  EN: {
+    whyusFirstTitle: "WHY",
+    whyusSecondTitle: "CHOOSE ECOPLAST?",
+  },
+};

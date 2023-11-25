@@ -1,9 +1,11 @@
-import Homepage from "@/app/home/page";
+import WhyUsPage from "./whyus/page";
+import HomeSection from "@/sections/homesection/HomeSection";
 
 export default function Home() {
   return (
     <>
-      <Homepage />
+      <HomeSection />
+      <WhyUsPage />
     </>
   );
 }

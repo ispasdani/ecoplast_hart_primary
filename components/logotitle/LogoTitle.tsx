@@ -9,8 +9,8 @@ const LogoTitle = () => {
       <Image
         priority={true}
         src="/icons/recycleLogo.svg"
-        width={26}
-        height={26}
+        width={30}
+        height={30}
         alt="Company Logo"
         className={styles.navLogo}
       />
