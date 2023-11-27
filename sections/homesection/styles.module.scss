@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   z-index: 1;
-  border-bottom-left-radius: 65px;
+  border-bottom-left-radius: 0px;
   border-bottom-right-radius: 65px;
   background-color: var(--home-herobox);
   position: relative;
@@ -188,6 +188,19 @@
 
 @media screen and (max-width: 498px) {
   .homeSection {
+    height: 130vh;
+
+    .heroTitle {
+      margin: 0px 5px;
+    }
+
+    .homeSectionLeft {
+      padding-top: 100px;
+      padding-bottom: 50px;
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+
     .heroTitle {
       font-size: 80px;
     }

@@ -5,9 +5,10 @@ import { homeSectionTexts } from "@/constants";
 type VideoCardProps = {
   videoPath: string;
   width: string;
+  videoTextBubble?: string;
 };
 
-const VideoCard = ({ videoPath, width }: VideoCardProps) => {
+const VideoCard = ({ videoPath, width, videoTextBubble }: VideoCardProps) => {
   return (
     <div className={styles.videoCard} style={{ width: `${width}` }}>
       <video loop autoPlay muted className={styles.videoPlayer}>
@@ -15,7 +16,7 @@ const VideoCard = ({ videoPath, width }: VideoCardProps) => {
       </video>
 
       <a className={styles.videoCardText} href="">
-        {homeSectionTexts.EN.heroVideoText}
+        {videoTextBubble ? videoTextBubble : homeSectionTexts.EN.heroVideoText}
       </a>
     </div>
   );

@@ -4,9 +4,9 @@ import WhyUsSection from "@/sections/whyus/WhyUsSection";
 
 function WhyUsPage() {
   return (
-    <div>
+    <>
       <WhyUsSection />
-    </div>
+    </>
   );
 }
 

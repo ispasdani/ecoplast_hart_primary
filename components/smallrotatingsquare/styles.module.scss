@@ -1,0 +1,18 @@
+.smallRotatingSquare {
+  width: 24px;
+  height: 24px;
+  background-color: var(--neon-green);
+  animation: rotate 1s infinite;
+  -webkit-animation: rotate 1s infinite;
+
+  @-webkit-keyframes rotate {
+    100% {
+      transform: rotate(1deg);
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(90deg);
+    }
+  }
+}
