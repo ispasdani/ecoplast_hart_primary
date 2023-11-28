@@ -1,0 +1,30 @@
+.carouselContainer {
+  width: 95%;
+  height: 370px;
+  background-color: wheat;
+  overflow-x: scroll;
+  z-index: 3;
+
+  /* WebKit Scrollbar Styles */
+
+  &::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Set the radius of the scrollbar thumb */
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+  }
+
+  .carousel {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

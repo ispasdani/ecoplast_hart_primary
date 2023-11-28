@@ -1,8 +1,18 @@
 import React from "react";
 import styles from "@/components/smallrotatingsquare/styles.module.scss";
 
-const SmallRotatingSquare = () => {
-  return <div className={styles.smallRotatingSquare}></div>;
+type SquareProps = {
+  width?: string;
+  height?: string;
+};
+
+const SmallRotatingSquare = ({ width, height }: SquareProps) => {
+  return (
+    <div
+      className={styles.smallRotatingSquare}
+      style={{ width: width, height: height }}
+    ></div>
+  );
 };
 
 export default SmallRotatingSquare;

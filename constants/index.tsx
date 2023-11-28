@@ -52,3 +52,75 @@ export const whyusSectionTexts = {
     whyVideoText: "Join us on this mission",
   },
 };
+
+export const whatWeDoSectionTexts = {
+  RO: {},
+  EN: {
+    whatWeCollectText: "WHAT WE COLLECT",
+    whatWeRecycleText: "WHAT WE RECYCLE",
+  },
+};
+
+export const whatWeCollect = {
+  RO: [
+    { collectText: { text: "Ferrous", description: "test" } },
+    { collectText: { text: "Non-Ferrous", description: "test1" } },
+    { collectText: { text: "Metal Scrape", description: "test2" } },
+    { collectText: { text: "Dangerous Waste", description: "test3" } },
+    { collectText: { text: "Glass", description: "test4" } },
+    { collectText: { text: "Plastic Waste", description: "test5" } },
+    { collectText: { text: "PET", description: "test6" } },
+    { collectText: { text: "Electronics", description: "test" } },
+    { collectText: { text: "Cardboard", description: "test" } },
+    { collectText: { text: "Paper", description: "test" } },
+  ],
+  EN: [
+    { collectText: { text: "Ferrous", description: "test" } },
+    { collectText: { text: "Non-Ferrous", description: "testddsaasdasda" } },
+    {
+      collectText: {
+        text: "Metal Scrape",
+        description: "testdasdasdasdasdasdfgf",
+      },
+    },
+    {
+      collectText: {
+        text: "Dangerous Waste",
+        description: "testsdg sdfg df gdfdsfg dfs",
+      },
+    },
+    {
+      collectText: {
+        text: "Glass",
+        description: "tesg dfsg  sdf sfd gdfs gdft",
+      },
+    },
+    {
+      collectText: {
+        text: "Plastic Waste",
+        description: "testg dfg dsf gsfdg fd gsdg df g",
+      },
+    },
+    { collectText: { text: "PET", description: "tesg dfsg sdfgdf t" } },
+    { collectText: { text: "Electronics", description: "t sgdf gsdf est" } },
+    { collectText: { text: "Cardboard", description: "tes dfs gdsfg sdft" } },
+    { collectText: { text: "Paper", description: "tes gdfs gsdf gt" } },
+  ],
+};
+
+export const whatWeRecycle = {
+  RO: [{ recycleText1: "Plastic" }, { recycleText2: "Plastic" }],
+  EN: [{ recycleText1: "Non-Ferrous" }, { recycleText2: "Non-Ferrous" }],
+};
+
+export const testTest = {
+  RO: [
+    {
+      test: [
+        { text: "dd", desc: "ddsdas" },
+        { text: "dd", desc: "ddsdas" },
+      ],
+    },
+  ],
+  EN: [],
+};
