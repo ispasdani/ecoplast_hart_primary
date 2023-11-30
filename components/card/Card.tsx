@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/components/card/styles.module.scss";
+import Image from "next/image";
 
 type CardProps = {
   backgroundImage?: string;
@@ -20,6 +21,13 @@ const Card = ({ backgroundImage, mainText, description }: CardProps) => {
     >
       <div className={styles.cardFirstBanner}>
         <p>{mainText?.toString().toUpperCase()}</p>
+        <Image
+          src="/icons/arrowLeft.svg"
+          width={40}
+          height={30}
+          alt="Card Arrow"
+          className={styles.cardBannerIcon}
+        />
       </div>
       <div className={styles.cardBannerReveal}>{description}</div>
     </div>

@@ -1,7 +1,6 @@
 .carouselContainer {
   width: 95%;
-  height: 370px;
-  background-color: wheat;
+  height: 320px;
   overflow-x: scroll;
   z-index: 3;
 
@@ -17,7 +16,7 @@
   }
 
   &::-webkit-scrollbar-track {
-    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+    background-color: #ffffff; /* Set the color of the scrollbar track */
   }
 
   .carousel {
